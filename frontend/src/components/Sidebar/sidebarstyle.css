@@ -1,0 +1,43 @@
+.Sidebar {
+    background: #0b2447;
+    color: #ffffff;
+    font-size: 16px;
+    width: 250px;
+    height: 100vh;
+    min-height: 100vh;
+    border: 3px solid #ffffff;
+}
+
+.SidebarList {
+    list-style: none;
+    align-items: center;
+    margin-left: 20px;
+
+    margin-top: 50px;
+    padding: 0;
+}
+
+.SidebarList li {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    cursor: pointer;
+    width: inherit;
+    margin-right: 10px;
+    border-radius: 20px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.SidebarList li:hover {
+    background-color: #19376d;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.title {
+    font-weight: bold;
+}

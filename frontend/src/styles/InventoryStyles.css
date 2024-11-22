@@ -1,0 +1,169 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #576CBC;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+.Inventory-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.Inventory-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.Inventory-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.Inventory-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}
+
+
+
+.dashboard-charts-container {
+  margin-left: 200px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.dashboard-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.dashboard-stat {
+  color: grey;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 30%;
+}
+
+.dashboard-stat-icon {
+  font-size: 3rem;
+}
+
+.dashboard-stat-title {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.dashboard-stat-value {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.dashboard-chart {
+  width: 100%;
+  max-width: 600px; /* change this value to adjust the maximum width of the chart */
+  margin-top: 5rem; /* add some margin between the charts */
+  margin-right: 30rem; /* add some margin to the left */
+}
+
+.add-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-items form {
+  max-width: 500px;
+  width: 100%;
+}
